@@ -19,7 +19,7 @@ FluentCQL\Table::setDefaultDbAdapter($connection);
 - INSERT COMMAND
 ```php
 $query = FluentCQL\Query::select('count(*)')
-	->from'table_name')
+	->from('table_name')
     ->where('id = ?', 123);
 
 // SELECT count(*) FROM table_name where id = 123
